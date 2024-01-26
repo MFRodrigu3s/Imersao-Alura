@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-container.css">
 
     <!-- LINKS ICONES NAV -->
 
@@ -67,15 +69,37 @@
             </div>
         </div>
     </div>
+
+    <main>
+        <div id="main-container">
+            <nav id="header-navigation">
+                <div id="navigation">
+                    <button id="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="">
+                    </button>
+                    <button id="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="">
+                    </button>
+                    <div id="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+                    <div id="header__login">
+                        <button id="inscrever-se">Inscrever-se</button>
+                        <button id="entrar">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <footer>
         <div id="footer__texts">
             <span id="footer__title">Testar o Premium de Graça</span>
             <span id="footer__subtitle">Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
         </div>
         <div id="footer__button">
-            <button>
-                <span>Inscreva-se grátis</span>
-            </button>
+            <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
 </body>
